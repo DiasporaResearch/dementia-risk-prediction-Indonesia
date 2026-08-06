@@ -1,4 +1,4 @@
-# Dementia Risk Prediction  Indonesia (DEMPRED-ID)
+# Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu – Indonesia (INGAT-ID)
 
 **Development and Validation of a Multi-Domain Machine Learning Model for Dementia Risk Prediction and Cognitive Decline in Older Adults: A Cross-Sectional Study in Two Hospitals in Indonesia**
 
