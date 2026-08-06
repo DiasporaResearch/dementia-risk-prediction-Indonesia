@@ -1,9 +1,10 @@
-# Research Protocol
+# Research Protocol Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu – Indonesia (INGAT-ID)
+# Dr Desy Nuryunarsih : 06/08/2026
 
 ## Development and Validation of a Multi-Domain Machine Learning Model for Dementia Risk Prediction and Cognitive Decline in Older Adults: A Cross-Sectional Study in Two Hospitals in Indonesia
 
-**Short title:** DEMPRED-ID
-**Principal Investigator:** Desy Nuryunarsih, DDS, MPH, PhD — Faculty of Medical Sciences, Population Health Sciences Institute, Newcastle University, UK
+**Short title:** 
+**Principal Investigator:** Desy Nuryunarsih, DDS, MPH, PhD  Faculty of Medical Science, University of St-Andrews, United Kingdom
 **Co-Investigators:** [Name, affiliation]; [Name, affiliation]; [Name, affiliation]
 **Partner Sites:** [Hospital A, City, Indonesia]; [Hospital B, City, Indonesia]
 **Study period:** [Start Month/Year] – [End Month/Year] (12 months)
@@ -17,9 +18,9 @@ Dementia is a leading cause of disability and dependency in older adults worldwi
 
 Building on the team's established methodology for interpretable, tree-based machine learning applied to cardiovascular risk prediction in South Asian populations (Nuryunarsih et al., 2023, 2025, 2024), we propose a single-visit, cross-sectional study of older adults attending two hospitals in Indonesia, structured around three aims from one data-collection wave:
 
-1. **Aim 1** — a machine learning classification model (Decision Tree, Random Forest, XGBoost) predicting current cognitive impairment/dementia status, defined using a validated screening tool (MMSE/MoCA);
-2. **Aim 2** — an apriori/market-basket association-rule analysis identifying frequently co-occurring clinical, lifestyle, and socioeconomic attribute combinations associated with cognitive impairment; and
-3. **Aim 3** — a retrospective decline-trajectory analysis using the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE), a validated single-administration informant tool, modelling factors associated with reported cognitive decline over the preceding 10 years.
+1. **Aim 1**  a machine learning classification model (Decision Tree, Random Forest, XGBoost) predicting current cognitive impairment/dementia status, defined using a validated screening tool (MMSE/MoCA);
+2. **Aim 2**  an apriori/market-basket association-rule analysis identifying frequently co-occurring clinical, lifestyle, and socioeconomic attribute combinations associated with cognitive impairment; and
+3. **Aim 3**  a retrospective decline-trajectory analysis using the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE), a validated single-administration informant tool, modelling factors associated with reported cognitive decline over the preceding 10 years.
 
 ---
 
@@ -31,17 +32,17 @@ Dementia is a leading cause of disability and death globally. Identifying indivi
 
 ### 2.2 The evidence gap in low- and middle-income countries
 
-An updated systematic review co-authored by our team (Brain et al., 2024, *Dementia and Geriatric Cognitive Disorders Extra*) identified 74 dementia risk prediction models published since 2014, incorporating over 450 unique predictor variables. Only five studies developed models specifically in LMIC settings, and external validation of high-income-country models in LMIC populations (e.g., the 10/66 study across seven LMICs) showed generally poor transportability — only the Basic Dementia Risk Model (BDRM), Brief Dementia Screening Indicator (BDSI), and Australian National University Alzheimer's Disease Risk Index (ANU-ADRI) transported adequately (Stephan et al., 2020). No dementia risk model has yet been developed or validated using Indonesian clinical data.
+An updated systematic review co-authored by our team (Brain et al., 2024, *Dementia and Geriatric Cognitive Disorders Extra*) identified 74 dementia risk prediction models published since 2014, incorporating over 450 unique predictor variables. Only five studies developed models specifically in LMIC settings, and external validation of high-income-country models in LMIC populations (e.g., the 10/66 study across seven LMICs) showed generally poor transportability  only the Basic Dementia Risk Model (BDRM), Brief Dementia Screening Indicator (BDSI), and Australian National University Alzheimer's Disease Risk Index (ANU-ADRI) transported adequately (Stephan et al., 2020). No dementia risk model has yet been developed or validated using Indonesian clinical data.
 
 This gap matters because risk factor prevalence, healthcare access, cultural context, and even instrument performance (e.g., olfactory-based tests) differ meaningfully between high-income and LMIC populations (Brain et al., 2024). A model built on Indonesian clinical data, incorporating locally relevant lifestyle, dietary, and socioeconomic predictors, is needed before any risk-stratification tool can be responsibly deployed in Indonesian primary or geriatric care.
 
 ### 2.3 Preliminary work and team track record
 
-- **Nuryunarsih et al. (2023,** *Current Hypertension Reports***)** — Naïve Bayes, ANN, logistic regression, and decision tree models predicting SBP/DBP decrease in 100 Indonesian hypertensive patients (≥84% accuracy, ≥90% precision).
-- **Nuryunarsih et al. (2025,** *Journal of Current Science and Technology***)** — 96-feature, three-algorithm comparison (DT, RF, XGBoost) in 160 hypertensive patients with cardiovascular/diabetic comorbidities in Pakistan; interpretable decision-tree visualisation of medication-response pathways (90% accuracy SBP, 97% DBP).
-- **Nuryunarsih et al. (2024,** *Journal of Medical Artificial Intelligence***)** — apriori/market-basket association rule mining identifying co-occurring lifestyle, symptom, and health-status attributes in 98 hypertension/HTN-CVD patients in Pakistan.
+- **Nuryunarsih et al. (2023,** *Current Hypertension Reports***)**  Naïve Bayes, ANN, logistic regression, and decision tree models predicting SBP/DBP decrease in 100 Indonesian hypertensive patients (≥84% accuracy, ≥90% precision).
+- **Nuryunarsih et al. (2025,** *Journal of Current Science and Technology***)**  96-feature, three-algorithm comparison (DT, RF, XGBoost) in 160 hypertensive patients with cardiovascular/diabetic comorbidities in Pakistan; interpretable decision-tree visualisation of medication-response pathways (90% accuracy SBP, 97% DBP).
+- **Nuryunarsih et al. (2024,** *Journal of Medical Artificial Intelligence***)**  apriori/market-basket association rule mining identifying co-occurring lifestyle, symptom, and health-status attributes in 98 hypertension/HTN-CVD patients in Pakistan.
 
-This project transfers that validated methodology — structured multi-domain questionnaire design, tree-based interpretable ML, and association-rule mining — from cardiovascular risk to dementia risk.
+This project transfers that validated methodology  structured multi-domain questionnaire design, tree-based interpretable ML, and association-rule mining  from cardiovascular risk to dementia risk.
 
 ---
 
@@ -49,13 +50,13 @@ This project transfers that validated methodology — structured multi-domain qu
 
 **Overall aim:** To develop and internally validate an interpretable, multi-domain machine learning framework for dementia risk and cognitive decline profiling in older adults attending two hospitals in Indonesia, using a single cross-sectional data-collection wave.
 
-### Aim 1 — Current cognitive status prediction
+### Aim 1  Current cognitive status prediction
 Develop and compare Decision Tree, Random Forest, and XGBoost classifiers predicting current cognitive impairment status (MMSE/MoCA cutoffs) from demographic, clinical, lifestyle, socioeconomic, and family-history predictors; evaluate via accuracy, sensitivity, specificity, F1-score, AUC, and calibration; generate interpretable decision-tree visualisations.
 
-### Aim 2 — Risk-factor association profiling
+### Aim 2  Risk-factor association profiling
 Apply apriori/market-basket analysis (minimum support ≥60%, as in Nuryunarsih et al., 2024) to identify frequently co-occurring attribute combinations associated with cognitive impairment.
 
-### Aim 3 — Retrospective decline-trajectory profiling
+### Aim 3  Retrospective decline-trajectory profiling
 Using IQCODE informant ratings collected at the same visit, identify predictors most strongly associated with informant-reported cognitive decline over the preceding decade.
 
 ### Future phase (not funded under this proposal)
@@ -79,7 +80,7 @@ Cross-sectional, single-visit, two-site clinical study, following the design pre
 
 ### 4.4 Sample size and statistical power
 
-Sample size was calculated using the three-criterion approach of Riley et al. (2020) for developing a binary-outcome clinical prediction model — the same method cited in Nuryunarsih et al. (2025). The three criteria are:
+Sample size was calculated using the three-criterion approach of Riley et al. (2020) for developing a binary-outcome clinical prediction model  the same method cited in Nuryunarsih et al. (2025). The three criteria are:
 
 - **(i)** global shrinkage factor S ≥ 0.90 (limiting overfitting of predictor effects to ≤10%);
 - **(ii)** an absolute difference of ≤0.05 between apparent and optimism-adjusted Nagelkerke's R²;
@@ -97,18 +98,18 @@ The anticipated Cox-Snell R² required for criteria (i) and (ii) was derived via
 | 40 | 1,763 | 146 | 246 | **1,763** | 8.8 |
 | 50 | 2,211 | 182 | 246 | **2,211** | 8.8 |
 
-**Worked example (simplified, base case):** the shrinkage criterion collapses to `n ≈ p / [(S−1) × ln(1 − R²/S)]`. With S=0.90 and R²≈0.181 (from the C-stat=0.80 simulation), the denominator evaluates to ≈0.02246, so `n ≈ p / 0.02246 ≈ p × 44.5` — i.e., **each additional predictor costs ≈44–45 participants** at these assumptions. This multiplier grows sharply for weaker anticipated models (≈109/predictor at C=0.70) and shrinks for stronger ones (≈22/predictor at C=0.90).
+**Worked example (simplified, base case):** the shrinkage criterion collapses to `n ≈ p / [(S−1) × ln(1 − R²/S)]`. With S=0.90 and R²≈0.181 (from the C-stat=0.80 simulation), the denominator evaluates to ≈0.02246, so `n ≈ p / 0.02246 ≈ p × 44.5`  i.e., **each additional predictor costs ≈44–45 participants** at these assumptions. This multiplier grows sharply for weaker anticipated models (≈109/predictor at C=0.70) and shrinks for stronger ones (≈22/predictor at C=0.90).
 
-Across all scenarios, criterion (i) is the binding constraint, not the precision-of-prevalence criterion — a materially larger requirement than the traditional EPP≥10 heuristic, and much larger than the EPP≈1.3–1.4 accepted (with caveats) in the team's earlier hypertension study. Two complementary strategies are proposed:
+Across all scenarios, criterion (i) is the binding constraint, not the precision-of-prevalence criterion  a materially larger requirement than the traditional EPP≥10 heuristic, and much larger than the EPP≈1.3–1.4 accepted (with caveats) in the team's earlier hypertension study. Two complementary strategies are proposed:
 
 1. **Predictor consolidation:** reduce the candidate predictor set from the full ~90-item questionnaire to a literature- and expert-panel-prioritised core set of ≈20 predictors (drawing on the highest-frequency variables identified in Brain et al., 2024, Fig. 2), lowering the target to n ≈ 900.
-2. **Phased/adaptive recruitment:** enrol continuously across the 12-month window at both sites with a target of n = 900–1,000 (split per expected site volume — see Section 4.4.1); if full recruitment is not reached, the achieved sample will be explicitly reported against the Riley criteria actually met, and treated as a pilot/feasibility dataset feeding into the Phase 2 proposal.
+2. **Phased/adaptive recruitment:** enrol continuously across the 12-month window at both sites with a target of n = 900–1,000 (split per expected site volume  see Section 4.4.1); if full recruitment is not reached, the achieved sample will be explicitly reported against the Riley criteria actually met, and treated as a pilot/feasibility dataset feeding into the Phase 2 proposal.
 
 Final calculation will be re-run using `pmsampsize` (R or Python) once pilot prevalence data are available.
 
 #### 4.4.1 Per-site allocation
 
-At the consolidated-predictor target (n ≈ 900), an even 50/50 split across two sites gives **≈450 participants per hospital**; at the base-case (30-predictor) target (n ≈ 1,330), an even split gives **≈665 per hospital**. An even split assumes comparable eligible-patient volume at both sites — confirm relative catchment size before finalising the per-site target, and consider inflating the total by 10–15% to buffer against ineligibility, refusal, or missing-informant dropout (e.g., 900 × 1.15 ≈ 1,035 total, ≈518/site).
+At the consolidated-predictor target (n ≈ 900), an even 50/50 split across two sites gives **≈450 participants per hospital**; at the base-case (30-predictor) target (n ≈ 1,330), an even split gives **≈665 per hospital**. An even split assumes comparable eligible-patient volume at both sites  confirm relative catchment size before finalising the per-site target, and consider inflating the total by 10–15% to buffer against ineligibility, refusal, or missing-informant dropout (e.g., 900 × 1.15 ≈ 1,035 total, ≈518/site).
 
 ### 4.5 Outcome measures
 
@@ -120,7 +121,7 @@ At the consolidated-predictor target (n ≈ 900), an even 50/50 split across two
 
 ### 4.6 Predictor variables
 
-Informed by the predictor treemap in Brain et al. (2024) — age, sex, education, diabetes, BMI, hypertension, smoking, APOE status, depression, hyperlipidaemia, and physical activity as the most frequently used predictors across 74 published models — and the team's prior 96-feature HTN questionnaire, the structured questionnaire captures:
+Informed by the predictor treemap in Brain et al. (2024)  age, sex, education, diabetes, BMI, hypertension, smoking, APOE status, depression, hyperlipidaemia, and physical activity as the most frequently used predictors across 74 published models  and the team's prior 96-feature HTN questionnaire, the structured questionnaire captures:
 
 - **Demographic:** age, sex, education level, occupation, marital status
 - **Clinical/comorbidity:** hypertension, diabetes, cardiovascular disease, stroke/TIA history, BMI, hearing/vision impairment, depression symptoms
@@ -144,13 +145,13 @@ Trained research assistants will administer the structured questionnaire and cog
 - **Aim 1:** Decision Tree (CART, Gini index), Random Forest, XGBoost; 80/20 train-test split; 5-fold cross-validation; grid-search hyperparameter tuning; class-imbalance weighting; accuracy, sensitivity, specificity, precision, F1-score, AUC; decision-tree visualisation via Graphviz/Pydotplus.
 - **Aim 2:** Apriori algorithm (mlxtend/apyori, Python), minimum support ≥60%, reporting antecedent/consequent support and confidence.
 - **Aim 3:** Multivariable regression and/or tree-based modelling of IQCODE decline scores against the predictor set.
-- **Calibration:** calibration plots, calibration slope/intercept, Brier score reported alongside discrimination — addressing a gap found in only 20/74 models reviewed in Brain et al. (2024).
-- **Benchmark comparison:** BDSI, BDRM, and ANU-ADRI scores calculated directly in the sample using existing questionnaire items, as the three models shown to transport adequately into LMIC (10/66) settings (Brain et al., 2024) — the most defensible existing benchmarks.
+- **Calibration:** calibration plots, calibration slope/intercept, Brier score reported alongside discrimination  addressing a gap found in only 20/74 models reviewed in Brain et al. (2024).
+- **Benchmark comparison:** BDSI, BDRM, and ANU-ADRI scores calculated directly in the sample using existing questionnaire items, as the three models shown to transport adequately into LMIC (10/66) settings (Brain et al., 2024)  the most defensible existing benchmarks.
 - All analyses in Python 3.x (pandas, scikit-learn, XGBoost, mlxtend).
 
 ### 4.9 Ethical considerations
 
-Ethical approval will be sought from [Institutional Ethics Committee name(s)]. Written informed consent (Bahasa Indonesia) will be obtained from all participants and informants, following the Declaration of Helsinki (2013), consistent with the team's prior approvals (e.g., PMAS-AAUR/1406). Participants screening positive for likely dementia will be referred for full diagnostic work-up as a condition of participation — this study is a research risk-model development exercise, not a diagnostic service.
+Ethical approval will be sought from [Institutional Ethics Committee name(s)]. Written informed consent (Bahasa Indonesia) will be obtained from all participants and informants, following the Declaration of Helsinki (2013), consistent with the team's prior approvals (e.g., PMAS-AAUR/1406). Participants screening positive for likely dementia will be referred for full diagnostic work-up as a condition of participation  this study is a research risk-model development exercise, not a diagnostic service.
 
 ### 4.10 Reporting standards
 
@@ -190,9 +191,9 @@ This project will produce: (i) the first Indonesia-derived, multi-domain dementi
 
 ## 8. Investigator Team and Roles
 
-- **Desy Nuryunarsih (PI)** — conceptualisation, methodology, ML analysis, manuscript preparation, overall leadership.
-- **[Co-investigator names]** — site coordination, data curation, ethics liaison, participant recruitment, project administration.
-- **[Clinical collaborator]** — clinical oversight, diagnostic referral pathway for screen-positive participants.
+- **Desy Nuryunarsih (PI)**  conceptualisation, methodology, ML analysis, manuscript preparation, overall leadership.
+- **[Co-investigator names]**  site coordination, data curation, ethics liaison, participant recruitment, project administration.
+- **[Clinical collaborator]**  clinical oversight, diagnostic referral pathway for screen-positive participants.
 
 ---
 
