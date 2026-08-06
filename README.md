@@ -1,4 +1,4 @@
-# Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu – Indonesia (INGAT-ID)
+# Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu  Indonesia (INGAT-ID)
 
 **Development and Validation of a Multi-Domain Machine Learning Model for Dementia Risk Prediction and Cognitive Decline in Older Adults: A Cross-Sectional Study in Two Hospitals in Indonesia**
 
@@ -12,13 +12,13 @@ This repository contains the full research protocol, data collection instruments
 
 The project directly extends the PI's prior published methodology for interpretable, multi-domain tree-based machine learning in cardiovascular risk prediction:
 
-- Nuryunarsih et al. (2023). *Predicting changes in systolic and diastolic blood pressure of hypertensive patients in Indonesia using machine learning.* Current Hypertension Reports, 25(11), 377–383.
+- Nuryunarsih et al. (2023). *Predicting changes in systolic and diastolic blood pressure of hypertensive patients in Indonesia using machine learning.* Current Hypertension Reports, 25(11), 377383.
 - Nuryunarsih et al. (2024). *Utilizing an apriori algorithm to examine attributes associated with hypertension and hypertension cardiovascular patients in Pakistan.* Journal of Medical Artificial Intelligence, 7, 34.
 - Nuryunarsih et al. (2025). *Predicting systolic and diastolic blood pressure response using machine learning: A 96-feature analysis in hypertensive patients with comorbidities.* Journal of Current Science and Technology, 15(4), Article 140.
 
 ...and addresses the evidence gap identified in:
 
-- Brain, Kafadar, Errington, et al. (2024). *What's new in dementia risk prediction modelling? An updated systematic review.* Dementia and Geriatric Cognitive Disorders Extra, 14, 49–74.
+- Brain, Kafadar, Errington, et al. (2024). *What's new in dementia risk prediction modelling? An updated systematic review.* Dementia and Geriatric Cognitive Disorders Extra, 14, 4974.
 
 ## Study aims (single cross-sectional data-collection wave)
 
