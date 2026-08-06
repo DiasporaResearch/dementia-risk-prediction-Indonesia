@@ -6,7 +6,7 @@ Patient-level data collected under this protocol will **not** be committed to th
 
 Expected files once data collection begins (all git-ignored):
 
-- `raw_data.csv` — exported case report form data (input to `scripts/01_data_cleaning.py`)
-- `processed_data.csv` — cleaned/encoded dataset (input to `scripts/02`–`04`)
+- `raw_data.csv` exported case report form data (input to `scripts/01_data_cleaning.py`)
+- `processed_data.csv`  cleaned/encoded dataset (input to `scripts/02`–`04`)
 
 A de-identified analysis dataset will be released separately alongside the resulting publication(s), consistent with the TRIPOD data-availability commitment in `docs/TRIPOD_checklist.md`.
