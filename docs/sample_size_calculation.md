@@ -1,24 +1,24 @@
-# Sample Size Calculation — Worked Method
+# Sample Size Calculation  Worked Method
 
 This document explains, step by step, how the sample size figures in `PROTOCOL.md` (Section 4.4) were derived, and how to reproduce them with `scripts/00_sample_size_calculation.py`.
 
 ## Method
 
-We use the three-criterion approach of Riley et al. (2020, *BMJ*, 368:m441) for developing a binary-outcome clinical prediction model — the same method cited in Nuryunarsih et al. (2025) for the hypertension model.
+We use the three-criterion approach of Riley et al. (2020, *BMJ*, 368:m441) for developing a binary-outcome clinical prediction model  the same method cited in Nuryunarsih et al. (2025) for the hypertension model.
 
-**Criterion (i) — limit overfitting/shrinkage** (binding constraint in our scenarios):
+**Criterion (i)  limit overfitting/shrinkage** (binding constraint in our scenarios):
 
 ```
 n ≥ p / [(S − 1) × ln(1 − R²/S)]
 ```
 
-**Criterion (ii) — small (≤0.05) difference between apparent and optimism-adjusted R²:**
+**Criterion (ii)  small (≤0.05) difference between apparent and optimism-adjusted R²:**
 
 ```
 n ≥ (R² × p) / δ
 ```
 
-**Criterion (iii) — precise estimation of overall outcome prevalence:**
+**Criterion (iii)  precise estimation of overall outcome prevalence:**
 
 ```
 n ≥ (z/δ)² × φ × (1 − φ)
@@ -30,7 +30,7 @@ The required sample size is the **maximum** of n from criteria (i), (ii), and (i
 
 ## Converting a target C-statistic to R²
 
-Criteria (i) and (ii) require an anticipated Cox-Snell R², which is not something investigators intuitively specify — it's easier to reason about anticipated discrimination (C-statistic / AUC). We derive R² from a target C-statistic via Monte Carlo simulation (the same logic underlying the `pmsampsize` package):
+Criteria (i) and (ii) require an anticipated Cox-Snell R², which is not something investigators intuitively specify  it's easier to reason about anticipated discrimination (C-statistic / AUC). We derive R² from a target C-statistic via Monte Carlo simulation (the same logic underlying the `pmsampsize` package):
 
 1. Generate a large synthetic population with a linear predictor `LP ~ N(0, σ²)`.
 2. Calibrate the intercept `β0` so the simulated population hits the target prevalence `φ` exactly (via root-finding).
@@ -78,7 +78,7 @@ So **each additional predictor parameter costs ≈44–45 participants** at thes
 | 0.85 | 0.248 | ≈31/predictor | 931 |
 | 0.90 (excellent) | 0.329 | ≈22/predictor | 659 |
 
-**Interpretation:** the weaker the anticipated true model performance, the more data each predictor "costs" — because with a weak true signal, more data is needed per predictor to distinguish real effects from noise without overfitting.
+**Interpretation:** the weaker the anticipated true model performance, the more data each predictor "costs"  because with a weak true signal, more data is needed per predictor to distinguish real effects from noise without overfitting.
 
 ## Sensitivity to prevalence (p = 30, C-statistic = 0.80)
 
@@ -88,7 +88,7 @@ So **each additional predictor parameter costs ≈44–45 participants** at thes
 | 0.20 | 1,332 |
 | 0.25 | 1,148 |
 
-**Interpretation:** lower prevalence increases the required *total* sample (not just the number of cases needed) — get a realistic local prevalence estimate (e.g., from prior audit/chart-review data at the two hospitals) before finalising recruitment targets, since this single input moves the total requirement more than almost any other assumption.
+**Interpretation:** lower prevalence increases the required *total* sample (not just the number of cases needed)  get a realistic local prevalence estimate (e.g., from prior audit/chart-review data at the two hospitals) before finalising recruitment targets, since this single input moves the total requirement more than almost any other assumption.
 
 ## Per-site allocation
 
@@ -98,7 +98,7 @@ So **each additional predictor parameter costs ≈44–45 participants** at thes
 | Consolidated predictors (p≈20) | 900 | 450 |
 | Consolidated + 15% dropout buffer | ≈1,035 | ≈518 |
 
-An even split assumes comparable eligible-patient volume at both sites — check expected relative patient volume at each hospital before finalising.
+An even split assumes comparable eligible-patient volume at both sites  check expected relative patient volume at each hospital before finalising.
 
 ## Reproducing this calculation
 
