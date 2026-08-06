@@ -1,0 +1,26 @@
+# Patient data must never be committed -- ethical/privacy requirement
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Analysis outputs (regenerate from scripts; large or contain derived data)
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Rendered outputs from docx/pdf conversion during drafting
+*.aux
+*.log

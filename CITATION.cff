@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this protocol, questionnaire template, or sample size methodology, please cite this repository and the underlying publications listed in docs/PROTOCOL.md."
+title: "Dementia Risk Prediction — Indonesia (DEMPRED-ID): Research Protocol and Analysis Pipeline"
+authors:
+  - family-names: Nuryunarsih
+    given-names: Desy
+    affiliation: "Faculty of Medical Sciences, Population Health Sciences Institute, Newcastle University, UK"
+    orcid: "https://orcid.org/0000-0002-5306-0467"
+date-released: 2026-08-06
+license: MIT
+repository-code: "[add GitHub URL after upload]"
+keywords:
+  - dementia
+  - machine learning
+  - risk prediction
+  - Indonesia
+  - cross-sectional study
+  - decision tree
+  - random forest
+  - XGBoost
+  - apriori algorithm
+references:
+  - type: article
+    title: "What's new in dementia risk prediction modelling? An updated systematic review"
+    authors:
+      - family-names: Brain
+        given-names: Jacob
+    year: 2024
+    journal: "Dementia and Geriatric Cognitive Disorders Extra"
+    doi: "10.1159/000539744"
+  - type: article
+    title: "Predicting changes in systolic and diastolic blood pressure of hypertensive patients in Indonesia using machine learning"
+    authors:
+      - family-names: Nuryunarsih
+        given-names: Desy
+    year: 2023
+    journal: "Current Hypertension Reports"
+    doi: "10.1007/s11906-023-01261-5"
+  - type: article
+    title: "Predicting systolic and diastolic blood pressure response using machine learning: A 96-feature analysis in hypertensive patients with comorbidities"
+    authors:
+      - family-names: Nuryunarsih
+        given-names: Desy
+    year: 2025
+    journal: "Journal of Current Science and Technology"
+    doi: "10.59796/jcst.V15N4.2025.140"
+  - type: article
+    title: "Utilizing an apriori algorithm to examine attributes associated with hypertension and hypertension cardiovascular patients in Pakistan"
+    authors:
+      - family-names: Nuryunarsih
+        given-names: Desy
+    year: 2024
+    journal: "Journal of Medical Artificial Intelligence"
+    doi: "10.21037/jmai-24-15"
