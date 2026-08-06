@@ -4,7 +4,7 @@
 ## Development and Validation of a Multi-Domain Machine Learning Model for Dementia Risk Prediction and Cognitive Decline in Older Adults: A Cross-Sectional Study in Two Hospitals in Indonesia
 
 **Short title:** 
-**Principal Investigator:** Desy Nuryunarsih, DDS, MPH, PhD  Faculty of Medical Science, University of St-Andrews, United Kingdom
+**Principal Investigator:** Desy Nuryunarsih, DDS, MPH, PhD  Faculty of Medical Science, University of St-Andrews, UK
 **Co-Investigators:** [Name, affiliation]; [Name, affiliation]; [Name, affiliation]
 **Partner Sites:** [Hospital A, City, Indonesia]; [Hospital B, City, Indonesia]
 **Study period:** [Start Month/Year] – [End Month/Year] (12 months)
