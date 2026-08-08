@@ -1,4 +1,4 @@
-# Research Protocol Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu – Indonesia (INGAT-ID)
+# Research Protocol Identifikasi Neurokognitif Gangguan Alzheimer/demensia Terpadu - Indonesia (INGAT-ID)
 ### Version1 Dr Desy Nuryunarsih : 06/08/2026
 
 ## Development and Validation of a Multi-Domain Machine Learning Model for Dementia Risk Prediction and Cognitive Decline in Older Adults: A Cross-Sectional Study in Two Hospitals in Indonesia
