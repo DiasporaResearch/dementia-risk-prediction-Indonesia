@@ -6,7 +6,7 @@
 ** Short title:** 
 ** Principal Investigator:Dr. Upik Rahmi.,S.Kp.,M.Kep
 ** Collaborator : Desy Nuryunarsih, DDS, MPH, PhD  Faculty of Medical Science, University of St-Andrews, UK
-** Co-Investigators:** [Name, affiliation]; [Name, affiliation]; [Name, affiliation]
+** Co-Investigators:** Okatiranti, PhD, Universitas Adhirajasa Reswara Sanjaya
 ** Partner Sites:** [Hospital A, City, Indonesia]; [Hospital B, City, Indonesia]
 ** Study period:** [Start Month/Year] – [End Month/Year] (12 months)
 ** Funder:** [Funding body name]
