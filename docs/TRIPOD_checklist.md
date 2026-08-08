@@ -1,4 +1,4 @@
-# TRIPOD Checklist (Template — to be completed post-analysis)
+# TRIPOD Checklist (Template  to be completed post-analysis)
 
 Per `docs/PROTOCOL.md` Section 4.10, this study commits to TRIPOD-compliant reporting (Collins et al., 2015) for the Aim 1 and Aim 3 model-development components. Complete this checklist alongside manuscript preparation; do not submit for publication without it.
 
