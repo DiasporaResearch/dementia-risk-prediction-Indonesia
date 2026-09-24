@@ -10,3 +10,5 @@ Expected files once data collection begins (all git-ignored):
 - `processed_data.csv`  cleaned/encoded dataset (input to `scripts/02`–`04`)
 
 A de-identified analysis dataset will be released separately alongside the resulting publication(s), consistent with the TRIPOD data-availability commitment in `docs/TRIPOD_checklist.md`.
+
+Bisa di edit 
